@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    margin-left: 77px;
+}
+
+img {
+    width: 539.224px;
+    height: 414.249px;
+    flex-shrink: 0;
+    margin-left: 77px;
+}
+
+.text {
+    margin-left: 80px;
+}
+
+.content {
+    display: flex;
+    padding-top: 250px;
+    margin-left: 80px;
+}
+
+
+h1 {
+    color: var(--Gray-1, #333);
+    font-family: Space Mono;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+
+p {
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    color: aliceblue;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--Gray-1, #333);
+}
+
+
+@media screen and (max-width:576px) {
+    .content {
+        flex-direction: column;
+    }
+
+    img {
+        margin-left: 0px;
+        width: 375px;
+        height: 400px;
+    }
+    .text {
+        margin-left: 0px;
+    }
+    
+}
